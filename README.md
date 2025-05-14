@@ -44,7 +44,9 @@ To execute:
 ./pa02 <input_file> <checksum_size>
 
 <checksum_size>: The selected checksum size (8, 16, or 32 bits).
+
 <checksum_value>: The computed checksum value in hexadecimal.
+
 <char_count>: The total number of characters processed, including padding.
 
 # Running the Test Script
