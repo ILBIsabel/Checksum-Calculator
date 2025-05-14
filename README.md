@@ -13,7 +13,7 @@ Automatically pads content with 'X' characters if needed
 
 Includes line feed characters (\n) in the checksum computation
 
-# Displays:
+# Displays
 
 Formatted input file content
 
@@ -42,6 +42,10 @@ gcc -o pa02 pa02.c
 To execute:
 
 ./pa02 <input_file> <checksum_size>
+
+<checksum_size>: The selected checksum size (8, 16, or 32 bits).
+<checksum_value>: The computed checksum value in hexadecimal.
+<char_count>: The total number of characters processed, including padding.
 
 # Running the Test Script
 To run the provided test script and verify your implementation against expected output, use the following command:
